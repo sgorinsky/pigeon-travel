@@ -1,0 +1,52 @@
+{
+  "id": "02e150b5-9764-42b6-bd9f-a38aa02988ab",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "text": "Hello! I am the virtual agent for Pigeon Travel. I can help you with many things such as changing your name on your reservation. How can I help you?",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello there. I can assist you with making a reservation or modifying a reservation. How may I help you today ?",
+            "Welcome to Pigeon Travel. I can assist you with making a reservation or modifying a reservation. Which would you like ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "TELEPHONY_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

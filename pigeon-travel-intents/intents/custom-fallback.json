@@ -1,0 +1,58 @@
+{
+  "id": "bf47faa5-af37-462b-bd53-e676ee2ab452",
+  "name": "custom-fallback",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "14",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "text": "I\u0027m sorry I\u0027m not able to find your reservation but you\u0027ll be connected to a live person in a moment.",
+          "condition": ""
+        },
+        {
+          "type": "15",
+          "platform": "telephony",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "phoneNumber": "+15165081730",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry, I\u0027m not able to find your reservation, but you\u0027ll be connected to a live person in a moment."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "custom_fallback"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}
